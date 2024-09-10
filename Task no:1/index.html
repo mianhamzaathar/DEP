@@ -1,1 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <title>Portfolio | Home</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+          <div class="logo">Portfolio</div>
+          <nav>
+            <a href="#about">About</a>
+            <a href="#Hobbies">Hobbies</a>
+            <a href="#projects">Projects</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contact</a>
+          </nav>
+          <div class="menu-toggle" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+    
+        <div class="container mobile-nav" id="mobile-nav">
+          <a href="#about">About</a>
+          <a href="#Hobbies">Hobbies</a>
+          <a href="#projects">Projects</a>
+          <a href="#skills">Skills</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </header>
+      <section class="hero">
+        <div class="hero-content">
+          <h1>Welcome to My Portfolio</h1>
+          <p>My Name is Muhammad Hamza Athar and I'm a passionate developer focused on creating beautiful and functional web applications.</p>
+          <a href="#projects" class="btn">View My Work</a>
+        </div>
+      </section>
+<section class="about" id="about">
+    <h2>About Me</h2>
+    <p>
+      I am a dedicated web developer with a passion for creating responsive and user-friendly websites.
+      With a strong background in both front-end and back-end technologies, I enjoy tackling complex
+      problems and delivering high-quality solutions.
+    </p>
+    <section class="Hobbies" id="Hobbies">
+      <h2>My Hobbies</h2>
+    <div class="skills">
+      <div class="skill">Programming</div>
+      <div class="skill">Coding</div>
+      <div class="skill">Recite Holly Quran</div>
+    </div>
+    
+  </section>
+  
+<section class="projects" id="projects">
+    <h2>My Projects</h2>
+    <div class="project-grid">
+      <div class="project">
+        <img src="images/project-1.jpg" alt="Project 1">
+        <div class="project-info">
+          <div class="project-title">Project 1</div>
+          <div class="project-description">
+            A brief description of Project 1. This project involved...
+          </div>
+        </div>
+      </div>
+      <div class="project">
+        <img src="images/project-2.jpg" alt="Project 2">
+        <div class="project-info">
+          <div class="project-title">Project 2</div>
+          <div class="project-description">
+            A brief description of Project 2. This project was focused on...
+          </div>
+        </div>
+      </div>
+      <div class="project">
+        <img src="images/project-3.jpg" alt="Project 3">
+        <div class="project-info">
+          <div class="project-title">Project 3</div>
+          <div class="project-description">
+            A brief description of Project 3. The main technologies used were...
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </section>
+ 
+<section class="skills-section" id="skills">
+    <h2 id="skills-heading">Skills</h2>
+    <div class="skills-container">
+      <div class="skill-card html-css">
+        <div id="skill-name">HTML & CSS</div>
+        <div class="progress-bar-wrapper">
+          <div class="progress-bar" style="width: 90%;"></div>
+        </div>
+      </div>
 
+      <div class="skill-card javascript">
+        <div id="skill-name">JavaScript</div>
+        <div class="progress-bar-wrapper">
+          <div class="progress-bar" style="width: 85%;"></div>
+        </div>
+      </div>
+      <div class="skill-card react">
+        <div id="skill-name">React</div>
+        <div class="progress-bar-wrapper">
+          <div class="progress-bar" style="width: 80%;"></div>
+        </div>
+      </div>
+      <div class="skill-card nodejs">
+        <div id="skill-name">Node.js</div>
+        <div class="progress-bar-wrapper">
+          <div class="progress-bar" style="width: 75%;"></div>
+        </div>
+      </div>
+      <div class="skill-card python">
+        <div id="skill-name">Python</div>
+        <div class="progress-bar-wrapper">
+          <div class="progress-bar" style="width: 70%;"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+      
+<section class="contact-section" id="contact">
+    <h2 id="contact-heading">Contact Us</h2>
+    <form class="contact-form">
+      <div class="form-group">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Muhammad Hamza Athar" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="jarrysultan@gmail.com" required>
+      </div>
+      <div class="form-group">
+        <label for="message">Message</label>
+        <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+      </div>
+      <button type="submit" class="submit-button">Send Message</button>
+    </form>
+  </section>
+
+<footer class="footer">
+    <div class="footer"></div>
+    <div class="footer-links">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </div>
+    <div class="social-media">
+      <a href="https://facebook.com" target="_blank" title="Facebook">Facebook</a>
+      <a href="https://twitter.com" target="_blank" title="Twitter">Twitter</a>
+      <a href="https://linkedin.com" target="_blank" title="LinkedIn">Linkedin</a>
+      <a href="https://instagram.com" target="_blank" title="Instagram">Instagram</a>
+    </div>
+    <div class="footer-bottom">
+      &copy; 2024 All rights reserved. Developed by Muhammad Hamza Athar
+    </div>
+  </footer>
+      <script src="script.js"></script>
+</body>
+</html>
